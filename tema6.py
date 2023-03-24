@@ -13,7 +13,7 @@ circumferinta()'''
 
 print('________EX1____________')
 
-class Cerc():
+class Cerc:
 
     def __init__(self,raza,culoare):
         self.raza = raza
@@ -51,7 +51,7 @@ Puteti verifica schimbarea culorii prin apelarea metodei descrie().
 '''
 print('________EX2____________')
 
-class Dreptunghi():
+class Dreptunghi:
     def __init__(self,lungime,latime,culoare):
         self.lungime = lungime
         self.latime = latime
@@ -92,7 +92,7 @@ marire_salariu(procent)
 '''
 print('________EX3____________')
 
-class Angajat():
+class Angajat:
     def __init__(self,nume,prenume,salariu):
         self.nume=nume
         self.prenume=prenume
@@ -132,7 +132,7 @@ Metode:
 
 print('________EX4____________')
 
-class Cont():
+class Cont:
     def __init__(self,iban,titular_cont,sold):
         self.iban=iban
         self.titular_cont=titular_cont
@@ -173,7 +173,7 @@ Produs  | cantitate    | pret bucata     | Total
 Telefon |      7       |       700       | 49000 
 '''
 print('________EX5____________')
-class Factura():
+class Factura:
 
     seria= 'ITF'
 
@@ -234,7 +234,7 @@ franeaza() - masina se va opri si va avea viteza 0
 
 print('________EX6____________')
 
-class Masina():
+class Masina:
     culoare='gri'
     viteza_actuala=0
     culori_disponibile=['alb','negru','auriu','rosu','albastru','verde']
@@ -297,7 +297,7 @@ daca raspunde da - il cerem detalii task si salvam nume+detalii in dict
 '''
 print('________EX7____________')
 
-class TodoList():
+class TodoList:
     todo={}
 
     def adauga_task(self,nume,descriere):
